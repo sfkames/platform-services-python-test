@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 from pymongo import MongoClient
 
-
 def main():
     client = MongoClient("mongodb", 27017)
     db = client["Rewards"]
